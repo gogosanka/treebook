@@ -1,0 +1,174 @@
+<!-->
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<ul class="nav nav-pills">
+				<li class="active">
+					<a href="#">ViewBooks</a>
+				</li>
+				<li>
+					<a href="#">Create</a>
+				</li>
+				<li class="disabled">
+					<a href="#">Messages</a>
+				</li>
+				<li class="disabled">
+				</li>
+				<li class="dropdown pull-right">
+					<a class="dropdown-toggle" href="http://www.layoutit.com/build#" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="http://www.layoutit.com/build#">Action</a>
+						</li>
+						<li>
+							<a href="http://www.layoutit.com/build#">Another action</a>
+						</li>
+						<li>
+							<a href="http://www.layoutit.com/build#">Something else here</a>
+						</li>
+						<li class="divider">
+						</li>
+						<li>
+							<a href="http://www.layoutit.com/build#">Separated link</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<div class="btn-group btn-group-md">
+						 <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-left"></em> Left</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-center"></em> Center</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-right"></em> Right</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-justify"></em> Justify</button>
+					</div>
+					<h2>
+						What's A ViewBook?
+					</h2>
+					<p>
+						Viewbooks are online content created by you to share with others for online viewing. They're albums of your creations for others to collect.
+					</p>
+					<p>
+						<a class="btn" href="#">View details »</a>
+					</p>
+					<h2>
+						Why View?
+					</h2>
+					<p>
+						Views let us take a peek into the creations of talented people everywhere. Subscribe to recipes, read fan fiction, keep up with a blog that you love- or create them for sharing with others! Viewbook is a platform for creation that makes it easier for anyone to share their creativity.
+					</p>
+					<p>
+						<a class="btn" href="#">View details »</a>
+					</p>
+					<h2>
+						What about my Facebook?
+					</h2>
+					<p>
+						Viewbook is not your Facebook alternative, it is in fact Facebook Friendly. If you prefer, you can add your favorite Facebook friends, family, pages or groups to your VBs and enjoy their content in the style of a Viewbook. Yes, this means you can export your Viewbooks as PDFs for printing as well!
+					</p>
+					<p>
+						<a class="btn" href="#">View details »</a>
+					</p>
+					<h2>
+						All Views
+					</h2>
+					<p>
+						This is an example of a view in your viewstream. Swipe to the left or right to remove this from your stream. Don't worry- you can always replace it using the history! Click on the link to open the View Book.
+					</p>
+					<p>
+						<a class="btn" href="#">View details »</a>
+					</p>
+					<h2>
+						Another View
+					</h2>
+					<p>
+						Take note that we are still in the "All Views" tab. In this view, we can see everything you're subscribed to as well as public streams. Use a different tab to filter out more views.
+					</p>
+					<p>
+						<a class="btn" href="#">View details »</a>
+					</p>
+					<h2>
+						Format
+					</h2>
+					<p>
+						Views show up in the format of the view's Title for a header, and a snippet of content from the viewbook. The creator isn't highlighted in the viewstream in order to emphasize the work you're subscribed to instead of the person you're subscribed to. This is not Twitter. Learm more by visiting the create page.
+					</p>
+					<p>
+						<a class="btn" href="#">View details »</a>
+					</p>
+					<h2>
+						Customize
+					</h2>
+					<p>
+						Want to customize your public stream? Name your collections so that others can subscribe to them through a search. You can have unlimited collections and choose to include any public viewbook you prefer- whether it's your own viewbook or someone elses!
+					</p>
+					<p>
+						<a class="btn" href="#">View details »</a>
+					</p>
+					<h2>
+						Friends
+					</h2>
+					<p>
+						You won't be lonely on Viewbook! Log in with Facebook and you can use the built-in messaging app to keep in touch with your friends. Also, this is a great way to see who's on Viewbook already!
+					</p>
+					<p>
+						<a class="btn" href="#">View details »</a>
+					</p>
+					<h2>
+						Privacy
+					</h2>
+					<p>
+						Viewbook has 3 privacy features: public, public-protected, and private. Public allows you to share your works with anyone via short-url publishing, embedding, viewstreams, collections, etc. Public-protected allows you to specify who you will share your viewbooks with, whether that's a Viewer or ViewerGroup. Private viewbooks or collections can only be viewed by you. Private books will not show up in searches, but public protected ones will, even though their content can not be seen.
+					</p>
+					<p>
+						<a class="btn" href="#">View details »</a>
+					</p>
+					<h2>
+						Get Started!
+					</h2>
+					<p>
+						Some ideas for using Viewbooks:<br />Scrapbooks- upload images and add subtitles for an amazing way to preserve memories.<br />Magazines- create, collect, and or combine articles in a collection and you've got your own magazine issue!<br />Recipes- swipe through your cookbook collection on a tablet in the Viewbook Viewer App.<br />Manga- Reading or sharing manga has never been easier; just make sure it's legal!<br />Storywriting- whether you blog or are filled with fantasy, Viewbook was meant for you. Don't worry, you can keep it private :)
+					</p>
+					
+					<p>
+						<a class="btn" href="#">View details »</a>
+					</p>
+					<div class="row clearfix">
+						<div class="col-md-8 column">
+						</div>
+						<div class="col-md-4 column">
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul class="nav nav-pills">
+				<li class="active">
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Profile</a>
+				</li>
+				<li class="disabled">
+					<a href="#">Messages</a>
+				</li>
+				<li class="dropdown pull-right">
+					 <a class="dropdown-toggle" href="#" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#">Action</a>
+						</li>
+						<li>
+							<a href="#">Another action</a>
+						</li>
+						<li>
+							<a href="#">Something else here</a>
+						</li>
+						<li class="divider">
+						</li>
+						<li>
+							<a href="#">Separated link</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
