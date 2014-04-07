@@ -10,17 +10,6 @@
 
 <nav class="navbar-default navbar-fixed-bottom" role="navigation">
 	<div class="container-fluid">
-		
-
-
-<div id="slide-out"><ul><li>HIHIHI</li><li>hohohoho</li></ul>
-<a href="#" class="button btn btn-default">HI</a>
-<div id="subscribe" class="page-wrap">
-	
-</div></div>
-
-
-
 		<div class="navbar-header">
 		  	<button type="button" class="navbar-toggle" data-target="nav1">
 		  		<span class="sr-only">Toggle Navigation</span>
@@ -28,25 +17,34 @@
 		  		<span class="icon-bar"></span>
 		  		<span class="icon-bar"></span>
 		  	</button>
+
 		  	<div class="navbar-brand">
-		  		<%= link_to "ViewBook", statuses_path %>
+		  		<a class="active" href="/statuses">Viewbook</a>
 		  	</div>
 		</div>
 
 		<div class="collapse navbar-collapse" id="nav1">
 	     	<ul class="nav navbar-nav">
-		        <li class="active">
-		        	<%= link_to "Create", new_status_path %>
-		        </li>
-		        <li><a href="#">Share</a></li>
+		        <li class="active"><%= link_to "Create", new_status_path %></li>
+		        <li><%= link_to "Sign Up", new_creator_registration_path %></li>
+		        <li><%= link_to "Sign Out", creator_session_path %></li>
+		        <li><a href="#">Test</a></li>
 	      </ul>
+	   	</div>
 	</div>
 </nav>
 </head>
 
 <body>
-<div id="main" class="page-wrap">
-<%= yield %>
-</div>
+
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
+
+<div class="myclass-left"><%= yield %></div>
+
+
+
+
+
 </body>
 </html>

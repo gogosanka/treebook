@@ -1,0 +1,38 @@
+<h2>Sign in</h2>
+
+
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <table>
+  	<th bgcolor="#FAFAFA">
+  		<div>
+  			<%= f.label :email %>
+  			<br />
+  			<%= f.email_field :email, autofocus: true %>
+  		</div>
+  	</th>
+
+  	<th bgcolor="#FAFAFA">
+  		<div>
+  			<%= f.label :password %>
+  			<br />
+    		<%= f.password_field :password, autocomplete: "off" %>
+    	</div>
+    </th>
+  
+
+	<div class="navbar-brand">
+	<tr>
+		<td>
+			<% if devise_mapping.rememberable? -%>
+			<div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+			<% end -%>
+		</td>
+
+		<td align="right">
+			<div><%= f.submit "Sign in" %></div><% end %>
+		</td>
+	</tr>
+	<tr><td></td><td align="right"><div class="signup-right-style"><%= render "devise/shared/links" %></div></td></tr>
+	</div>
+	</table>
