@@ -2,8 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .status {
-	border-bottom: solid 1px #CCC;
+	border-bottom: solid 1px #FAFAFA;
+	border-top: solid 1px #FAFAFA;
 	padding: 5px 0;
+	width: 100%;
+	margin-right: 0px;
 }
 
 .status p {
@@ -20,4 +23,9 @@
 
 .status.hover {
 	background: #FAFAFA;
+}
+
+.mystylese {
+	font-size: 85%;
+	text-color: #cc0000;
 }
