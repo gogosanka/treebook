@@ -11,39 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140409150845) do
-
-  create_table "creators", force: true do |t|
-    t.string   "email",                  default: "", null: false
-    t.string   "encrypted_password",     default: "", null: false
-    t.string   "first_name"
-    t.string   "last_name"
-    t.string   "profile_name"
-    t.string   "reset_password_token"
-    t.datetime "reset_password_sent_at"
-    t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,  null: false
-    t.datetime "current_sign_in_at"
-    t.datetime "last_sign_in_at"
-    t.string   "current_sign_in_ip"
-    t.string   "last_sign_in_ip"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "creators", ["email"], name: "index_creators_on_email", unique: true
-  add_index "creators", ["reset_password_token"], name: "index_creators_on_reset_password_token", unique: true
+ActiveRecord::Schema.define(version: 20140409214711) do
 
   create_table "statuses", force: true do |t|
     t.text     "content"
+    t.string   "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "user_id"
   end
 
-  add_index "statuses", ["user_id"], name: "index_statuses_on_user_id"
-
   create_table "users", force: true do |t|
+    t.string   "firstname"
+    t.string   "lastname"
+    t.string   "profilename"
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
