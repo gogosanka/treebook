@@ -836,8 +836,9 @@ pre code {
 }
 
 .myclass-left {
-  margin-left: 25px;
-  width: 80%;
+  margin-left: 0 0;
+  width: 100%;
+  padding: 2px 20px;
 }
 
 .myclass-right {
@@ -3812,6 +3813,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   top: 0;
   border-width: 0 0 1px;
 }
+
 .navbar-fixed-bottom {
   bottom: 0;
   margin-bottom: 0;

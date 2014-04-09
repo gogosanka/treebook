@@ -1,5 +1,6 @@
 class StatusesController < ApplicationController
   before_action :set_status, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
 
   # GET /statuses
   # GET /statuses.json
@@ -28,7 +29,7 @@ class StatusesController < ApplicationController
 
     respond_to do |format|
       if @status.save
-        format.html { redirect_to @status, notice: 'Status was successfully created.' }
+        format.html { redirect_to @status, notice: 'ViewBook created!.' }
         format.json { render action: 'show', status: :created, location: @status }
       else
         format.html { render action: 'new' }
